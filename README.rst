@@ -32,6 +32,7 @@ and install the project in editable mode (locally).
 
     virtualenv -p python3 venv
     source venv/bin/activate
+    pip install -U pip
     pip install --editable .
 
 
